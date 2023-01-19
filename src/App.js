@@ -11,8 +11,8 @@ export default function App() {
 
   const darkTheme = createTheme({
     palette: {
-      mode: mode
-    }
+      mode: mode,
+    },
   });
   return (
     <ThemeProvider theme={darkTheme}>
